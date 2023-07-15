@@ -4,7 +4,6 @@ import numpy as np
 import plotly.express as px
 import streamlit as st
 
-st.image('bmw.jpg')
 df = pd.read_csv('bmw.csv')
 st.title('EDA of used BMW cars')
 st.write('# Year of production VS Price')
